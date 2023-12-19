@@ -18,12 +18,14 @@ int add_numbers(int x, int y)
 	return x + y;
 }
 
+
 /**
  * main - Entry point of the program.
  *
  * Return: 0 on success.
  */
-int main(void)
+
+	int main(void)
 {
 	int num1 = 7;
 	int num2 = 9;
