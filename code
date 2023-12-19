@@ -1,0 +1,39 @@
+/*
+ * File: code.c
+ * Author: Modupe
+ * Description: A beautiful C program that passes the Betty checks.
+ */
+
+#include <stdio.h>
+
+/**
+ * add_numbers - Adds two numbers.
+ * @x: The first number.
+ * @y: The second number.
+ *
+ * Return: The sum of the two numbers.
+ */
+int add_numbers(int x, int y)
+{
+	return x + y;
+}
+
+/**
+ * main - Entry point of the program.
+ *
+ * Return: 0 on success.
+ */
+int main(void)
+{
+	int num1 = 7;
+	int num2 = 9;
+	int result;
+
+	/* Calculate the sum of num1 and num2 */
+	result = add_numbers(num1, num2);
+
+	/* Print the result */
+	printf("The sum of %d and %d is: %d\n", num1, num2, result);
+
+	return 0;
+}
